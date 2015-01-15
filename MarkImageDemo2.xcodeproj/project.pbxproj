@@ -11,9 +11,10 @@
 		09567CF71A3956F10016ACDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09567CF61A3956F10016ACDA /* AppDelegate.m */; };
 		09567CFA1A3956F10016ACDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09567CF91A3956F10016ACDA /* ViewController.m */; };
 		09567CFD1A3956F10016ACDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09567CFB1A3956F10016ACDA /* Main.storyboard */; };
-		09567CFF1A3956F10016ACDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09567CFE1A3956F10016ACDA /* Images.xcassets */; };
 		09567D021A3956F10016ACDA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09567D001A3956F10016ACDA /* LaunchScreen.xib */; };
 		09567D0E1A3956F10016ACDA /* MarkImageDemo2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09567D0D1A3956F10016ACDA /* MarkImageDemo2Tests.m */; };
+		BD8DD4E91A3B3C6300CC78B1 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8DD4E81A3B3C6300CC78B1 /* Image.xcassets */; };
+		BD8DD4EB1A3B4E5700CC78B1 /* sticker.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD8DD4EA1A3B4E5700CC78B1 /* sticker.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +36,12 @@
 		09567CF81A3956F10016ACDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		09567CF91A3956F10016ACDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		09567CFC1A3956F10016ACDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		09567CFE1A3956F10016ACDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		09567D011A3956F10016ACDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		09567D071A3956F10016ACDA /* MarkImageDemo2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkImageDemo2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09567D0C1A3956F10016ACDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09567D0D1A3956F10016ACDA /* MarkImageDemo2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarkImageDemo2Tests.m; sourceTree = "<group>"; };
+		BD8DD4E81A3B3C6300CC78B1 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		BD8DD4EA1A3B4E5700CC78B1 /* sticker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = sticker.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +88,10 @@
 				09567CF81A3956F10016ACDA /* ViewController.h */,
 				09567CF91A3956F10016ACDA /* ViewController.m */,
 				09567CFB1A3956F10016ACDA /* Main.storyboard */,
-				09567CFE1A3956F10016ACDA /* Images.xcassets */,
 				09567D001A3956F10016ACDA /* LaunchScreen.xib */,
 				09567CF11A3956F10016ACDA /* Supporting Files */,
+				BD8DD4E81A3B3C6300CC78B1 /* Image.xcassets */,
+				BD8DD4EA1A3B4E5700CC78B1 /* sticker.xib */,
 			);
 			path = MarkImageDemo2;
 			sourceTree = "<group>";
@@ -200,8 +203,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				09567CFD1A3956F10016ACDA /* Main.storyboard in Resources */,
+				BD8DD4EB1A3B4E5700CC78B1 /* sticker.xib in Resources */,
+				BD8DD4E91A3B3C6300CC78B1 /* Image.xcassets in Resources */,
 				09567D021A3956F10016ACDA /* LaunchScreen.xib in Resources */,
-				09567CFF1A3956F10016ACDA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +416,7 @@
 				09567D131A3956F10016ACDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09567D141A3956F10016ACDA /* Build configuration list for PBXNativeTarget "MarkImageDemo2Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				09567D161A3956F10016ACDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

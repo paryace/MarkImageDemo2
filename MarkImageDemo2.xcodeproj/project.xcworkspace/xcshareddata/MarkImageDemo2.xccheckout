@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>214F9057-C6E8-45C4-8678-58B5AB4D4787</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MarkImageDemo2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>725FDA2D07F893549557BEA6009C304D48057059</key>
+		<string>github.com:zengyun-programmer/MarkImageDemo2.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MarkImageDemo2.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>725FDA2D07F893549557BEA6009C304D48057059</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:zengyun-programmer/MarkImageDemo2.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>725FDA2D07F893549557BEA6009C304D48057059</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>725FDA2D07F893549557BEA6009C304D48057059</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MarkImageDemo2</string>
+		</dict>
+	</array>
+</dict>
+</plist>
